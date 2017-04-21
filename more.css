@@ -1,0 +1,272 @@
+* {
+    margin:0;
+    padding:0;
+/*字体笔画精细化*/
+    -webkit-text-stroke-width: 0px;
+    -moz-text-stroke-width: 0px;
+    -o-text-stroke-width: 0px;
+    -ms-text-stroke-width: 0px;
+/*边框和内间距算在宽度和高度之内*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+}
+body {
+    font-family: "Microsoft Yahei", "simsun", "Arial";
+    background-color:#FFF;
+    font-size: 12px;
+    color: #000;
+}
+a {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+    blr:expression(this.onFocus=this.blur());
+}
+input,select,textarea {
+    vertical-align:middle;
+    width: auto;
+    outline: none;
+    border:0;    
+}
+select {
+    appearance: normal;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+img {
+    vertical-align:middle;
+    border:0;
+    outline:none;
+}
+
+div, p, dl, dt, dd, ul, ol, li, h1,h2,h3,h4,h5,h6 {
+    display: block;
+    width: auto; 
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing:0px;
+    border: 0;
+}
+
+
+/*********通用结束**********/
+/**导航栏**/
+.nav{
+    background-color:#DBCA9F;
+    background: linear-gradient(#fff, #DBCA9F);
+    width: 100%;
+    height:100px;
+}
+.nav div{
+    width: 1100px;
+    height: 100px;
+    margin:0 auto;
+    padding-top:20px;
+   
+}
+.title{
+    width:100%;
+    height: 60px;
+    background-color:#380903;
+}
+.title_1{
+    width:1100px;
+    height: 100%;
+    margin:0 auto;
+
+}
+.title_1 span{
+    border-right:1px solid #490907;
+    display: inline-block;
+    width:272px;
+    height: 59px;
+    color:white;
+    text-align:center;
+}
+.title_1 span table{
+    padding: 0px 15px 0px 0px;
+}
+.title_1 span tr td{
+    padding:5px 10px 0px 13px;
+    font-size:14px;
+}
+
+.title_1 span b{
+    font-size:18px;
+    color:#F2C957;
+}
+.title_1 span a{
+    color:red;
+    font-size:14px;
+}
+/**内容区**/
+.jkl{
+    width: 1070px;
+    height: 20px;
+    margin:0px auto;
+    margin-top:30px;
+}
+.middle{
+    width:1100px;
+    height: 1200px;
+    margin:0px auto;
+}
+
+/**中间内容部分**/
+.middle_1{
+    border:1px solid #CDCDCD;
+    width: 750px;
+    height: 1050px;
+    float: left;
+
+}
+.middle_1 ul li{
+    border-bottom:1px dashed #CDCDCD;
+    width:720px;
+    height: 28px;
+    margin:10px;
+    padding-left:10px;
+    
+}
+.middle_1 ul li span{
+    display:inline-block;
+    width: 0px;
+    height: 0px;
+    padding-right:10px;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #ff0000;
+    border-bottom: 5px solid transparent;
+}
+/**中间右侧内容部分**/
+.side{
+    border:1px solid #CDCDCD;
+    float: right;
+    width:300px;
+    height: 100%;
+}
+.side_1{
+    background-color:#380903;
+    width:100%;
+    height: 40px;
+    color:white;
+    font-size:20px;
+    padding:8px 0px 0px 20px;;
+}
+.side ul li{
+    border-bottom:1px dashed #CDCDCD;
+    width:90%;
+    height: 28px;
+    margin:10px;
+    padding-left:10px;
+    
+}
+.side ul li span{
+    display:inline-block;
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #ff0000;
+    border-bottom: 5px solid transparent;
+    padding-right:10px;
+}
+.side img{
+    width: 280px;
+    height: 390px;
+    margin: 30px 10px;
+}
+/**图片文字定位**/
+.dingwei{
+    position: relative;
+}
+.dingwei_1{
+    background-color:#380903;
+    color: white;
+    width: 280px;
+    height: 30px;
+    text-align:center;
+    font-size:18px;
+    padding-top:5px;
+    position:absolute;
+    left:10px;
+    top:0px;
+}
+/**底部**/
+.sponsor{
+    width: 100%;
+    height: 300px;
+    margin-top:20px;
+    background-color:#F1F1F1;
+}
+.sponsor_1{
+
+    width: 1100px;
+    height: 160px;
+    margin:0px auto;
+    padding-top:20px;
+}
+/**右侧二维码**/
+.wechat{
+    width:350px;
+    height: 140px;
+    float: right;
+}
+.wechat img{
+    width:114px;
+    height: 114px;
+    padding-right:10px;
+
+}
+.we{
+    position:relative;
+}
+.we_1{
+    position: absolute;
+    font-size:14px;
+    top:70px;
+    left:5px;
+}
+/**左侧合作伙伴**/
+.sponsor_2{
+    border-right:1px solid #CCC;
+    width:740px;
+    height: 140px;
+    float:left;
+}
+.partenr{
+    margin-top:10px;
+    padding:20px 0px 0px 5px;   
+    width:710px;
+    height:114px;
+    background-color:#333;
+}
+.partenr span{
+    font-size:16px;
+    color:white;
+    margin-right:30px;
+    margin-left:5px;
+    float:left;
+    padding-bottom:25px;
+}
+/**下方合作信息***/
+.underpart{
+    width:1100px;
+    height: 120px;
+    margin:0 auto;
+    margin-top:20px;
+    text-align:center;
+}
+.underpart ul li{
+    font-size:15px;
+    padding-top: 20px;
+}
+.underpart img{
+    width: 15px;
+    height: 20px;
+}
